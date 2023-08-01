@@ -3,16 +3,57 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Tyson Sakamoto's page</title>
+        <style>
+            .headshot {
+                border: solid 1pt black;
+            }
+            p, ul{
+                margin: 0;
+                
+            }
+            h3 {
+                margin: 1rem, 1rem, 1rem;
+            }
+            h1, h2, #socials {
+                margin:1rem;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-weight: 200;
+            }
+            table {
+                margin-left: 1rem;
+            }
+            body {
+                margin: 2rem;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+            .aligned {
+                display: flex;
+                align-items: center;
+            }
+            .undertext {
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        </style>
     </head>
 
     <body>
+        <div class="aligned"> 
+
         <!-- Headshot photo --> 
-        <img src="./tysonheadshot.jpg" alt="my Headshot" height="250" width="250">
-        <h1>Tyson Sakamoto</h1>
-        <h2>Student at UCR</h2>
-        <p><a href="https://www.linkedin.com/in/tyson-m-sakamoto03/">LinkedIn</a>,
-             <a href="https://github.com/tysonmasa">GitHub</a>
-        </p>
+        <img src="./tysonheadshot.jpg" alt="my Headshot" height="250" width="250" class="headshot">
+            <div class="undertext">
+            <h1>Tyson Sakamoto</h1>
+            <h2>Student at UCR</h2>
+            <!--socials-->
+            <p id="socials"><a href="https://www.linkedin.com/in/tyson-m-sakamoto03/">LinkedIn</a>,
+                <a href="https://github.com/tysonmasa">GitHub</a>
+            </p>
+            </div>
+        </div>
+
         <!--about me-->
         <h3>About me</h3>
         <p>Hi, this is Tyson and wecome to my page! I am a current computer science w/business applications student at UCR. I enjoy cooking, 
@@ -23,8 +64,7 @@
         <table>
             <tbody>
                 <tr>
-                    <td>South East Youth Organization</td>
-                    <td>Scorekeeper</td>
+                    <td>South East Youth Organization, Scorekeeper</td>
                     <td>August 2017 - March 2020</td>
                 </tr>
                 <tr>
