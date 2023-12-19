@@ -29,7 +29,9 @@ body {
     margin: 2rem;
     background-color: cornflowerblue;
     font-family: Arial, Helvetica, sans-serif;
-
+}
+job {
+    color:rgb(8, 8, 143);
 }
 .aligned {
     display: flex;
